@@ -688,7 +688,7 @@ header .a-arrow{
 /*_______________________________*/
 .slider-section{
 	position: relative;
-	padding-bottom: 100px;
+	padding-bottom: 0px;
 }
 .star-block{
     position: absolute;
@@ -697,7 +697,7 @@ header .a-arrow{
     left: 0;
     right: 0;
     margin: 0 auto;
-    bottom: -220px;
+    top: 460px;
     background: url(../images/star-bg.png)no-repeat;
 	padding: 67px 4px;
 }
@@ -715,6 +715,7 @@ header .a-arrow{
 }
 .map{
 	padding-bottom: 0;
+    margin: 150px 0 0 0;
 }
 footer a{
 	outline: none !important;
@@ -794,6 +795,12 @@ footer{
 	}
 	.bx-wrapper .bx-prev {
     	left: 43%;
+	}
+	.bx-wrapper .bx-next {
+	    right: 43%;
+	}
+	.star-block {
+	    top: 540px;
 	}
 }
 @media (max-width: 767px){
@@ -922,7 +929,7 @@ footer{
 	    display: none;
 	}
 	.star-block{
-		bottom: -177px;
+		top: 570px;
 	}
 	footer a {
 	    outline: none !important;
